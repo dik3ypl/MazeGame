@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        <%= htmlWebpackPlugin.options.title %>
+    </title>
+</head>
+
+<body>
+    <div id="root" class="absolute"></div>
+    <div id="record">
+        POINTS<br>
+        <span id="points">100</span>
+    </div>
+    <div id="console" class="absolute">
+        <h1>Console</h1>
+        <div>
+            <div>
+                <p>
+                    <span><input type="range" id="y" value="25"> wysokość kamery nad ziemią</span><br>
+                    <span><input type="range" id="nachylenie" min="-100" max="100"> kąt nachylenia kamery x</span><br>
+                    <span><input type="range" id="distance" value="0"> odległość kamery od postaci</span><br>
+                    <span><input type="range" id="fov" value="75" min="0" max="150"> fov kamery</span><br>
+                    <span><input type="range" id="light"> moc świateł</span><br>
+                </p>
+            </div>
+            <div>
+                <p>
+                    <span><input type="range" id="value"> wielkość ognia</span><br>
+                    <span><input type="range" id="value2"> szer. ogniska x</span><br>
+                    <span><input type="range" id="value3"> szer. ogniska z</span><br>
+                    <span><input type="checkbox" id="cienie"> cienie</span><br>
+                    <span><input type="checkbox" id="up"> kamera z góry</span><br>
+                </p>
+            </div>
+            <div>
+                <p>
+                    <span><input type="range" id="roz" value="1"> rozrzut lasera</span><br>
+                    <span><input type="range" id="skala"> skala lasera</span><br>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

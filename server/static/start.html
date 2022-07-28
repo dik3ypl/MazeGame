@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/start.css">
+    <title>Smokey Maze</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <h1>S<span style="font-size: 70pt;">mokey</span><br><span style="color: black;">xx</span><span
+            style="font-size: 70pt;">Maze</span></h1>
+    <center><button>Play</button></center>
+    <script>
+        document.cookie = "session=no"
+
+        document.querySelector('button').addEventListener("click", function () {
+            document.cookie = "session=yes"
+            console.log(document.cookie)
+
+            const go = document.createElement("a")
+            go.setAttribute("href", "/wait")
+            document.body.appendChild(go)
+            go.click()
+        })
+    </script>
+</body>
+
+</html>

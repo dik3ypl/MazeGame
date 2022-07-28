@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: white;
+}
+
+.absolute {
+    position: absolute;
+}
+
+#console {
+    width: 100%;
+    height: 300px;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    color: white;
+    font-family: Arial;
+    margin-left: 20px;
+    margin-top: 10px;
+    opacity: 0.5;
+}
+
+#console div {
+    width: 100%;
+    height: 240px;
+    bottom: 0;
+    display: flex;
+}
+
+#console div div {
+    width: 33%;
+    height: 240px;
+}
+
+input {
+    opacity: 1;
+    margin-left: 20px;
+}
+
+p {
+    font-size: 14pt;
+    font-family: 'comic sans ms';
+}
+
+span {
+    line-height: 50px;
+    color: white
+}
+
+#record {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 48px;
+    width: 80px;
+    background-color: #030529;
+    color: #03ebf0;
+    margin-top: 2px;
+    line-height: 13px;
+    font-size: 10pt;
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-align: center;
+}
+
+#points {
+    line-height: 33px;
+    font-size: 22pt;
+    color: #03ebf0;
+}

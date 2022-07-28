@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 40vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 72pt;
+}
+
+div {
+    margin: 0;
+}
+
+#level {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.player {
+    float: left;
+    width: 50%;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    margin: 20px;
+    background-color: black;
+    border: 5px white solid;
+    color: white;
+    width: 300px;
+    height: 80px;
+    border-radius: 75px;
+    outline: none;
+    font-size: 24pt;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: 1s;
+    cursor: pointer;
+}
+
+#level button {
+    width: 300px;
+    height: 80px;
+}
+
+.player button {
+    width: 225px;
+    height: 70px;
+}
+
+#start-div {
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#before {
+    position: absolute;
+    top: 0;
+    left:0;
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    z-index: 1;
+}
+
+#start {
+    width: 300px;
+    height: 80px;
+}
+
+#main {
+    width: 1400px;
+    margin: auto;
+    margin-top: 175px;
+}
+
+#board {
+    height: 500px;
+    width: 500px;
+    padding: 0;
+    float: left;
+}
+
+#items {
+    margin-left: 100px;
+    width: 300px;
+    height: auto;
+    float: left;
+}
+
+pre {
+    float: right;
+    margin-right: 0;
+    margin-top: 0;
+    width: 400px;
+    height: 500px;
+    border-radius: 0;
+    background-color: white;
+    color: black;
+    overflow: auto;
+}
+
+.box {
+    float: left;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    border-spacing: 0;
+}
+
+#now {
+    text-align: center;
+    line-height: 50px;
+    width: 400px;
+    height: 50px;
+    margin-left: 550px;
+    margin-bottom: 20px;
+    border: 5px black solid;
+    border-radius: 10px;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23pt;
+}
+
+button {
+    margin: 20px;
+    background-color: black;
+    border: 5px white solid;
+    color: white;
+    width: 300px;
+    height: 80px;
+    border-radius: 75px;
+    outline: none;
+    font-size: 24pt;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    transition: 1s;
+}
+
+#save_lvl {
+    background-color: black;
+    color: white;
+}
